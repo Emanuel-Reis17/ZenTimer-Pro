@@ -19,12 +19,12 @@ Este projeto foi desenvolvido com as seguintes tecnologias (bem simples):
 
 ```plaintext
 ZenTimer Pro
-	|- index.html
+    |- index.html
     |- assets/
         |- css/
         |-js/
         |- images/
-	|- README.md
+    |- README.md
 ```
 
 
@@ -58,7 +58,7 @@ A página está otimizada para os principais dispositivos e tamanhos de tela, in
 
 ## 🔗 Link de Acesso
 
-🔗 Acesse a Landing Page aqui: 
+🔗 Acesse a Landing Page aqui: https://emanuel-reis17.github.io/ZenTimer-Pro/
 
 
 ## ✨ Melhorias Futuras
