@@ -1,0 +1,326 @@
+/* Notebooks / PC */
+@media screen and (max-width: 1440px) {
+    .hero, 
+    .features, 
+    .testimonials {
+        max-width: 1024px;
+    }
+
+    /* Hero Section */
+    .hero__container {
+        height: 450px;
+    }
+
+    .hero__content {
+        max-width: 400px;
+    }
+
+    .hero__title, 
+    .features__title, 
+    .testimonials__title, 
+    .cta__title {
+        font-size: 2.2em;
+    }
+
+    .hero__txt, 
+    .features__txt, 
+    .cta__txt {
+        font-size: 0.9em;
+    }
+
+    .hero__img {
+        width: 400px;
+    }
+
+    /* Features cards */
+    .features__card {
+        width: 200px;
+    }
+    
+    .card__icon {
+        font-size: 19px;
+    }
+    
+    .card__title {
+        font-size: 1em;
+    }
+    
+    .card__txt {
+        font-size: 0.850em;
+    }
+
+    /* Testimonials */
+    .testimonials__cards {
+        gap: 11px;
+    }
+
+    .testimonials__card {
+        width: 230px;
+        height: 370px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .card__photo {
+        font-size: 23px;
+        margin-bottom: 11px;
+        padding: 7px;
+    }
+
+    .card__user {
+        font-size: 1em;
+    }
+
+    .card__occupation {
+        font-size: 0.850em;
+        margin-bottom: 20px;
+    }
+
+    .card__txt {
+        font-size: 0.8em;
+    }
+
+    /* CTA */    
+    .cta__img {
+        width: 250px;
+    }
+
+    .cta__text {
+        width: 350px;
+    }
+    
+    .cta__txt {
+        font-size: 0.9em;
+        margin-bottom: 20px;
+    }
+}
+/* Notebooks */
+@media screen and (max-width: 1024px) {
+    .hero, 
+    .features, 
+    .testimonials {
+        max-width: 768px;
+    }
+
+    .hero__content {
+        max-width: 300px;
+    }
+
+    .hero__title, 
+    .features__title, 
+    .testimonials__title, 
+    .cta__title {
+        font-size: 1.8em;
+    }
+
+    .hero__txt, 
+    .features__txt, 
+    .cta__txt {
+        font-size: 0.8em;
+    }
+
+    .hero__img {
+        width: 300px;
+    }
+
+    /* Features cards */
+    .features__card {
+        width: 140px;
+    }
+    
+    .card__icon {
+        font-size: 15px;
+    }
+    
+    .card__title {
+        font-size: 0.9em;
+    }
+    
+    .card__txt {
+        font-size: 0.550em;
+    }
+
+    /* Testimonials */
+    .testimonials__card {
+        width: 230px;
+        height: 300px;
+        border-radius: 13px;
+    }
+
+    .card__photo {
+        font-size: 19px;
+    }
+
+    .card__user {
+        font-size: 0.950em;
+    }
+
+    .card__occupation {
+        font-size: 0.750em;
+        margin-bottom: 15px;
+    }
+
+    .testimonials__card .card__txt {
+        font-size: 0.7em;
+    }
+
+    /* CTA */
+    .cta__img {
+        width: 200px;
+    }
+
+    .cta__text {
+        width: 280px;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    /* Hero Section */
+    .hero__container {
+        height: auto;
+    }
+
+    .hero {
+        justify-content: center;
+        gap: 40px;
+        padding: 40px;
+    }
+
+    .hero__content {
+        max-width: 400px;
+    }
+
+    .hero__title, 
+    .features__title, 
+    .testimonials__title, 
+    .cta__title {
+        font-size: 2.2em;
+    }
+
+    .hero__txt, 
+    .features__txt, 
+    .cta__txt {
+        font-size: 0.9em;
+    }
+
+    .hero__img {
+        width: 400px;
+    }
+
+    /* Features cards */
+    .features__cards {
+        gap: 20px;
+    }
+
+    .features__card {
+        width: 150px;
+    }
+    
+    .card__icon {
+        font-size: 15px;
+    }
+    
+    .card__title {
+        font-size: 0.9em;
+    }
+    
+    .card__txt {
+        font-size: 0.550em;
+    }
+
+    /* Testimonials */
+    .testimonials__cards {
+        gap: 11px;
+    }
+
+    .testimonials__card {
+        width: 230px;
+        height: 300px;
+        border-radius: 13px;
+    }
+
+    /* CTA */
+    .cta {
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .cta__img {
+        width: 250px;
+    }
+
+    .cta__text {
+        width: 350px;
+    }
+
+    .cta__title, .cta__txt {
+        text-align: center;
+    }
+
+    .cta__text > a {
+        margin: auto;
+    }
+}
+
+/* Smartphones */
+@media screen and (max-width: 425px) {
+    /* Hero Section */
+    .hero {
+        width: 320px;
+    }
+    
+    .hero__title, 
+    .features__title, 
+    .testimonials__title, 
+    .cta__title {
+        text-align: center;
+        font-size: 1.350em;
+    }
+
+    .hero__txt, 
+    .features__txt, 
+    .cta__txt {
+        text-align: center;
+        font-size: 0.750em;
+    }
+
+    .hero__img {
+        max-width: 230px;
+    }
+
+    /* Features cards */
+    .features__cards {
+        gap: 40px;
+    }
+
+    /* Testimonials */
+    .testimonials__cards {
+        gap: 11px;
+    }
+
+    .testimonials__cards {
+        justify-content: center;
+    }
+
+    /* CTA */
+    .cta {
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .cta__img {
+        width: 200px;
+    }
+
+    .cta__text {
+        width: auto;
+    }
+
+    .cta__text > a {
+        font-size: 0.7em;
+        padding: 7px 9px;
+        border-radius: 5px;
+    }
+}

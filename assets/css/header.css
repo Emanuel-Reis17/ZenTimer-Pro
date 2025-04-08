@@ -1,0 +1,80 @@
+.header {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.349);
+    width: 100%;
+    border-bottom: 1px solid #7070704d;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 1440px;
+    margin: auto;
+    padding: 19px;
+}
+
+/* Logo */
+.logo {
+    font: normal 500 1.5em var(--font-logo);
+    letter-spacing: -1px;
+}
+
+.dest {
+    color: var(--color3);
+}
+
+/* Menu */
+.nav__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    transition: var(--transition);
+}
+
+/* Links do menu */
+.nav__link {
+    color: var(--black3);
+    font: normal 500 1em var(--font1);
+    transition: var(--transition);
+}
+
+.nav__link:hover {
+    opacity: 0.7;
+}
+
+/* Botão CTA */
+.nav__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--color3);
+    color: var(--white1);
+    font: normal 500 1em var(--font1);
+    width: fit-content;
+    padding: 11px 13px;
+    border-radius: 7px;
+    transition: var(--transition);
+}
+
+.nav__btn > span {
+    transition: var(--transition);
+}
+
+.nav__btn:hover {
+    box-shadow: var(--shadow);
+}
+
+.nav__btn:hover > span {
+    transform: translateX(3px);
+}
+
+.menu {
+    display: none;
+}

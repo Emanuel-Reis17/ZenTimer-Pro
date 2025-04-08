@@ -1,0 +1,26 @@
+/* Notebooks / PC */
+@media screen and (max-width: 1440px) {
+    .infor__txt, 
+    .infor__link, 
+    .infor__link > span {
+        font-size: 0.9em;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    .infor__txt, 
+    .infor__link, 
+    .infor__link > span {
+        font-size: 0.7em;
+    }
+}
+
+/* Smartphones */
+@media screen and (max-width: 425px) {
+    .infor__txt, 
+    .infor__link, 
+    .infor__link > span {
+        font-size: 0.6em;
+    }
+}

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Importing all CSS files */
+@import url('header.css');
+@import url('main.css');
+@import url('footer.css');
+
+/* Importing all media queries files */
+@import url('medias/header.css');
+@import url('medias/main.css');
+@import url('medias/footer.css');
+
+:root {
+    /* Colors */
+    --color1: #EFC3F5;
+    --color2: #FAA6FF;
+    --color3: #6c63ff;
+    --color4: #2F195F;
+    --color5: #0F1020;
+    
+    --white1: #ffffff;
+    --white2: #f6f6f6;
+    --white3: #ececec;
+    --white4: #e1e1e1;
+    --white5: #d0d0d0;
+    
+    --black1: #4d4d4d;
+    --black2: #3c3c3c;
+    --black3: #1e1e1e;
+    --black4: #111111;
+    --black5: #000000;
+    
+    /* Fonts */
+    --font-default: Arial, Helvetica, Sans-serif;
+    --font-logo: "Space Grotesk", var(--font-default);
+    --font1: "Inter", var(--font-default);
+    --font2: "Source Sans 3", var(--font-default);
+    --fonte3: "Roboto", var(--font-default);
+    
+    /* Others */
+    --transition: 300ms ease;
+    --shadow: 0px 5px 19px #0000004f;
+    --border1: 1px solid #0b0c0d86;
+    --border2: 1px solid #0b0c0d52;
+}
+
+* {
+    font-family: var(--font-default);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: var(--transition);
+}
+
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+}
