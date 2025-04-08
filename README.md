@@ -19,12 +19,12 @@ Este projeto foi desenvolvido com as seguintes tecnologias (bem simples):
 
 ```plaintext
 ZenTimer Pro
-	|- index.html
+    |- index.html
     |- assets/
         |- css/
         |-js/
         |- images/
-	|- README.md
+    |- README.md
 ```
 
 
