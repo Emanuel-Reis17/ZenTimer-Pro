@@ -58,7 +58,7 @@ A página está otimizada para os principais dispositivos e tamanhos de tela, in
 
 ## 🔗 Link de Acesso
 
-🔗 Acesse a Landing Page aqui: 
+🔗 Acesse a Landing Page aqui: https://emanuel-reis17.github.io/ZenTimer-Pro/
 
 
 ## ✨ Melhorias Futuras
