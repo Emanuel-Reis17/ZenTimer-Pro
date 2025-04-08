@@ -6,7 +6,7 @@ Landing Page simples de um app fictício de produtividade para auxiliar nas tare
 
 ## 📸 Prévia
 
-![[example_1.png]]
+![Página Inicial](https://github.com/Emanuel-Reis17/ZenTimer-Pro/assets/images/example_1.png)
 
 ## 🚀 Tecnologias Utilizadas
 
