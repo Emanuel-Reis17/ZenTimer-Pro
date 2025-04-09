@@ -7,11 +7,13 @@
 @import url('header.css');
 @import url('main.css');
 @import url('footer.css');
+@import url('sobre.css');
 
 /* Importing all media queries files */
 @import url('medias/header.css');
 @import url('medias/main.css');
 @import url('medias/footer.css');
+@import url('medias/sobre.css');
 
 :root {
     /* Colors */

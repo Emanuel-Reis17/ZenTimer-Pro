@@ -1,0 +1,34 @@
+.terms {
+    max-width: 1440px;
+    margin: auto;
+    padding: 40px;
+}
+
+.terms__img {
+    width: 400px;
+}
+
+.terms__text {
+    max-width: 900px;
+}
+
+.terms__title {
+    color: var(--black2);
+    font: normal 700 2em var(--font2);
+    margin-bottom: 19px;
+    letter-spacing: -1px;
+}
+
+.terms__date {
+    display: block;
+    color: var(--white5);
+    font: normal 600 1em var(--font1);
+    margin-bottom: 19px;
+}
+
+.terms__txt {
+    display: block;
+    color: var(--black1);
+    font: normal 600 1em var(--font1);
+    margin-bottom: 15px;
+}
