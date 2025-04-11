@@ -11,3 +11,17 @@ function toggleMenu() {
         menu.style.left = '0%';
         btn.innerText = 'close';
 }
+
+// Função para ver senha
+const eyeBtn = document.querySelector('.toggle-pass');
+const inputPassword = document.querySelector('#senha');
+
+function togglePassword() {
+    if (inputPassword.type == 'password') {
+        inputPassword.type = 'text';
+        eyeBtn.innerText = 'visibility_off';
+        return true;
+    }
+    inputPassword.type = 'password';
+    eyeBtn.innerText = 'visibility';
+}

@@ -6,13 +6,63 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="assets/css/index.css" type="text/css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <title>Login | ZenTimer Pro.</title>
+    <title>Login | ZenTimer Pro</title>
 </head>
 <body>
     <main class="main">
         <section class="login__container container">
-            <div class="login">Esta página está em desenvolvimento, PAREM DE ME COBRAR😁👍</div>
+            <div class="login__img"></div>
+            <div class="login__bg">
+                <div class="login">
+                    <h1 class="logo">ZenTimer <strong class="dest">Pro</strong></h1>
+                    <h1 class="login__title">Log in</h1>
+                    <p class="login__txt">Entre no ZenTimer Pro</p>
+                    <form action="#" method="post" class="form">
+                        <div class="form__block">
+                            <label for="email" class="form__label">Email:</label>
+                            <input type="email" name="email" id="email" class="form__input" placeholder="Digite seu email">
+                            <span class="form__error">Email inválido!</span>
+                        </div>
+                        <div class="form__block">
+                            <label for="senha" class="form__label">Senha:</label>
+                            <p class="pass">
+                                <input type="password" name="senha" id="senha" class="form__input" min-length="8" placeholder="Digite sua senha">
+                                <span class="material-symbols-outlined toggle-pass" onclick="togglePassword()">visibility</span>
+                            </p>
+                            <span class="form__error">A senha precisar ter 8+ caracteres!</span>
+                        </div>
+                        <button type="submit" class="form__btn">Entrar</button>
+                    </form>
+                    <p class="login__txt">Ou</p>
+                    <div class="form__blcks">
+                        <div class="form__blck">
+                            <img title="Faça login com Google" src="assets/images/google.png" alt="Ícone" class="form__icon">
+                        </div>
+                        <div class="form__blck">
+                            <img title="Faça login com Apple" src="assets/images/apple.png" alt="Ícone" class="form__icon">
+                        </div>
+                        <div class="form__blck">
+                            <img title="Faça login com Microsoft" src="assets/images/microsoft.png" alt="Ícone" class="form__icon">
+                        </div>
+                        <div class="form__blck">
+                            <img title="Faça login com Github" src="assets/images/github.png" alt="Ícone" class="form__icon">
+                        </div>
+                        <div class="form__blck">
+                            <img title="Faça login com Discord" src="assets/images/discord.png" alt="Ícone" class="form__icon">
+                        </div>
+                        <div class="form__blck">
+                            <img title="Faça login com Facebook" src="assets/images/facebook.png" alt="Ícone" class="form__icon">
+                        </div>
+                    </div>
+                    <p class="login__txt">Não possui conta? <a href="#" class="form__link">Vamos começar!</a></p>
+                </div>
+                <div class="login__text">
+                    <img src="assets/images/undraw_aircraft_usu4.png" alt="Ilustração" class="login__airplane">
+                    <h1 class="login__subtitle">Com o ZenTimer Pro, você aumenta o seu foco e seus resultados decolam <em>10X</em> mais!</h1>
+                </div>
+            </div>
         </section>
     </main>
+    <script src="assets/js/main.js" type="application/javascript"></script>
 </body>
 </html>

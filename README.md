@@ -64,7 +64,7 @@ A página está otimizada para os principais dispositivos e tamanhos de tela, in
 ## ✨ Melhorias Futuras
 
 - Animações com CSS e JS.
-- Mais páginas (Contato, Preços, Login, Interface)
+- Mais páginas (Contato, Preços, Interface)
 - Mais informações na página inicial
 - Otimização para SEO
 

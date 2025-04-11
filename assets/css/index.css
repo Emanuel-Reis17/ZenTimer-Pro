@@ -8,12 +8,14 @@
 @import url('main.css');
 @import url('footer.css');
 @import url('sobre.css');
+@import url('login.css');
 
 /* Importing all media queries files */
 @import url('medias/header.css');
 @import url('medias/main.css');
 @import url('medias/footer.css');
 @import url('medias/sobre.css');
+@import url('medias/login.css');
 
 :root {
     /* Colors */
@@ -59,6 +61,7 @@
 html {
     scroll-behavior: smooth;
     transition: var(--transition);
+    height: 100%;
 }
 
 body {
@@ -75,4 +78,23 @@ ul {
 
 .container {
     width: 100%;
+}
+
+/*Mudar a cor do input quando usar o autocomplete */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px var(--white2) inset !important;
+    outline: none;
+}
+
+/*Mudar a cor do texto do input quando usar o autocomplete*/
+input:-webkit-autofill{
+    -webkit-text-fill-color: var(--black1) !important;
+}
+
+input:focus {
+    /* border: none; */
+    outline: none;
 }
