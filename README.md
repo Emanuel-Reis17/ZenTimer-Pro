@@ -1,8 +1,12 @@
 # ZenTimer Pro
 
-Landing Page simples de um app fictício de produtividade para auxiliar nas tarefas, criação de hábitos e gerenciamento de tempo minimalista de forma *clara e elegante*.
+Website simples de um SaaS fictício de produtividade para auxiliar nas tarefas, criação de hábitos e gerenciamento de tempo minimalista de forma *clara e simples*.
 
 **Propósito:** Apenas para testar meus conhecimentos em Frontend, pois estava sem codar há meses.
+
+## 🔗 Link de Acesso
+
+🔗 Acesse a Landing Page aqui: https://emanuel-reis17.github.io/ZenTimer-Pro/
 
 ## 📸 Prévia
 
@@ -20,6 +24,9 @@ Este projeto foi desenvolvido com as seguintes tecnologias (bem simples):
 ```plaintext
 ZenTimer Pro
     |- index.html
+    |- sobre.html
+    |- login.html
+    |- signup.html
     |- assets/
         |- css/
         |-js/
@@ -56,17 +63,12 @@ A página está otimizada para os principais dispositivos e tamanhos de tela, in
 | Parágrafos | Inter |
 | Adicional | Roboto |
 
-## 🔗 Link de Acesso
-
-🔗 Acesse a Landing Page aqui: https://emanuel-reis17.github.io/ZenTimer-Pro/
-
-
 ## ✨ Melhorias Futuras
 
-- Animações com CSS e JS.
-- Mais páginas (Contato, Preços, Interface)
-- Mais informações na página inicial
-- Otimização para SEO
+- Funcionalidades ✅
+- Seção de preços ✅
+- Mais páginas (Contato, Sign Up, Login, Sobre) ✅
+- Mais informações na página inicial ✅
 
 ## Inspiração:
 

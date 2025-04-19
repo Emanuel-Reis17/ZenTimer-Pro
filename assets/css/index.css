@@ -63,10 +63,10 @@ html {
     transition: var(--transition);
     height: 100%;
 }
-
+/* p
 body {
     height: 100%;
-}
+} */
 
 a {
     text-decoration: none;

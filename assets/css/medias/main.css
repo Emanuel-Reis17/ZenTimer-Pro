@@ -18,7 +18,8 @@
     .hero__title, 
     .features__title, 
     .testimonials__title, 
-    .cta__title {
+    .cta__title, 
+    .pricing__title {
         font-size: 2.2em;
     }
 
@@ -109,7 +110,8 @@
     .hero__title, 
     .features__title, 
     .testimonials__title, 
-    .cta__title {
+    .cta__title, 
+    .pricing__title {
         font-size: 1.8em;
     }
 
@@ -194,7 +196,8 @@
     .hero__title, 
     .features__title, 
     .testimonials__title, 
-    .cta__title {
+    .cta__title, 
+    .pricing__title {
         font-size: 2.2em;
     }
 

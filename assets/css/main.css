@@ -178,6 +178,99 @@
     font: normal 400 0.9em var(--font1);
 }
 
+/* Pricing Section */
+.pricing__container {
+    background-color: var(--white2);
+}
+
+.pricing {
+    max-width: 1440px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.pricing__title {
+    text-align: center;
+    color: var(--black2);
+    font: normal 700 4em/1em var(--font2);
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+}
+
+.pricing__cards {
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    gap: 19px;
+    flex-flow: row wrap;
+}
+
+.pricing__card {
+    background-color: var(--white1);
+    width: 300px;
+    padding: 19px;
+    border-radius: 19px;
+    border: var(--border2);
+}
+
+.prc__ttl {
+    color: var(--black3);
+    font: normal 600 1.1em var(--font1);
+    margin-bottom: 20px;
+}
+
+.prc__txt {
+    color: var(--black1);
+    font: normal 400 0.9em var(--font1);
+}
+
+.prc__price {
+    color: var(--black4);
+    font: normal 700 2.5em var(--font-logo);
+    letter-spacing: -2px;
+    margin: 10px 0px;
+}
+
+.prc__btn {
+    display: block;
+    text-align: center;
+    background-color: var(--color3);
+    color: var(--white1);
+    font: normal 500 1em var(--font1);
+    width: 100%;
+    margin-bottom: 19px;
+    padding: 15px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.prc__btn--signup {
+    background-color: var(--white1);
+    color: var(--black3);
+    padding: 13px;
+    border: 1px solid var(--black3);
+}
+
+.prc__btn:hover {
+    opacity: 0.9;
+    transform: scale(0.97);
+}
+
+.prc__iten {
+    color: var(--black4);
+    font: normal 300 0.9em var(--font1);
+}
+
+.prc__iten:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.prc__iten > span {
+    font-size: 15px;
+}
+
 /* CTA */
 .cta__container {
     background-color: var(--white1);
@@ -215,4 +308,73 @@
     color: var(--black1);
     font: normal 600 1em var(--font1);
     margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+    max-width: 1440px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.contact__title {
+    text-align: center;
+    color: var(--black2);
+    font: normal 700 3em/1em var(--font2);
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+}
+
+.contact__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    flex-flow: row wrap;
+}
+
+.contact__img {
+    max-width: 600px;
+}
+
+.contact__infor {
+    background-color: var(--white2);
+    height: 400px;
+    padding: 19px;
+    border-radius: 19px;
+}
+
+.contact__block:not(:last-child) {
+    margin-bottom: 19px;
+}
+
+.contact__ttl {
+    display: flex;
+    color: var(--color3);
+    font: normal 700 1em var(--font1);
+    letter-spacing: -1px;
+    margin-bottom: 9px;
+}
+
+.contact__ttl > span {
+    font-size: 18px;
+}
+
+.contact__txt, .contact__txt > strong {
+    color: var(--black2);
+    font: normal 400 0.9em var(--font1);
+}
+
+.contact__txt > strong {
+    font-weight: 700;
+}
+
+.contact__txt:not(:last-child) {
+    margin-bottom: 3px;
+}
+
+.contact__txt--city {
+    color: var(--color3);
+    font: normal 700 1.3em var(--font1);
+    letter-spacing: -1px;
 }
