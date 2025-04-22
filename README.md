@@ -2,7 +2,7 @@
 
 Website simples de um SaaS fictício de produtividade para auxiliar nas tarefas, criação de hábitos e gerenciamento de tempo minimalista de forma *clara e simples*.
 
-**Propósito:** Apenas para testar meus conhecimentos em Frontend, pois estava sem codar há meses.
+**Propósito:** Apenas para testar meus conhecimentos em Frontend, como forma de retomar a prática após um período sem programar.
 
 ## 🔗 Link de Acesso
 
@@ -77,4 +77,4 @@ A página está otimizada para os principais dispositivos e tamanhos de tela, in
 - usemotion.com
 
 Desenvolvido por **Emanuel Reis**
-emanuelemreis@gmai.com | @Emanuel-Reis17
+[emanuelemreis@gmail.com](mailto:emanuelemreis@gmail.com) | @Emanuel-Reis17
